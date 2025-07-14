@@ -1,4 +1,5 @@
 import React, { useState, FormEvent, JSX } from "react";
+import { Analytics } from "@vercel/analytics/react"
 
 export default function LandingPage(): JSX.Element {
   const [email, setEmail] = useState<string>("");
@@ -167,6 +168,7 @@ export default function LandingPage(): JSX.Element {
           Contact
         </a>
       </footer>
+      <Analytics />
     </div>
   );
 }
