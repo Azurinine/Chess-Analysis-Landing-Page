@@ -149,8 +149,13 @@ export default function LandingPage(): JSX.Element {
       {/* Footer */}
       <footer className="mt-20 text-gray-500 text-sm text-center">
         Built by a chess player •{" "}
-        <a href="#" className="underline">
-          GitHub
+        <a
+          href="https://forms.gle/8ohnZcf7QV8xmMyZ8"
+          className="underline"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Interest Form
         </a>{" "}
         •{" "}
         <a
