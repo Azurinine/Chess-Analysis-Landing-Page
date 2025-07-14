@@ -26,7 +26,7 @@ export default function LandingPage(): JSX.Element {
               rel="noopener noreferrer"
               className="bg-blue-600 px-6 py-3 rounded-md font-semibold hover:bg-blue-700 transition duration-200"
             >
-              Join the Waitlist
+              Be First to Know!
             </a>
           </div>
         </section>
